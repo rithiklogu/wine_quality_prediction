@@ -1,11 +1,12 @@
 # wine_quality_predictions
 
-''' bash 
-    conda create -n wine_quality_predictions python==3.8 -y
-    
-'''
 
-''' bash 
-   pip install -r requirements.txt
-    
-'''
+## workflow
+
+1. update config.yaml
+2. update schema.yaml
+3. update params.yaml
+4. update the entity
+5. update configuration manager in src config
+6. update the components
+7. update the pipeline
